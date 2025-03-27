@@ -538,7 +538,17 @@ h2 {
 
 @media (max-width:991px) {
 
+ .header-txt h1 {
+        font-size: 1.8rem;       /* Reduce el tamaño del título en móviles */
+    }
 
+    .header-txt h2 {
+        font-size: 1.4rem;       /* Reduce el subtítulo */
+    }
+
+    .container {
+        padding: 15px;           /* Menos padding en pantallas pequeñas */
+    }
     .menu {
         padding: 20px;
     }
